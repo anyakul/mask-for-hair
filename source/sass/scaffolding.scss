@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: $font-futura;
+}
+
+.row {
+  margin: 0;
+}
+
+.sprite {
+  display: none;
+}
+
+.main__actions-advantages-services-wrapper {
+  background-color: $light-blue-background;
+  padding-top: 40px;
+}
+
+.main__clinic-doctors {
+  background-color: $light-blue-background;
+  padding-top: 40px;
+
+  @media (max-width: $mobile-width) {
+    padding-top: 0;
+  }
+}

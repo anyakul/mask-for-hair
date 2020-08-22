@@ -1,0 +1,47 @@
+.video {
+  background: linear-gradient(to bottom, $light-pink-background 50%, $violet-color 50%);
+}
+
+.video__wrapper {
+  @include page-width;
+  margin: 0 auto;
+  position: relative;
+  width: 288px;
+}
+
+.video__image {
+  margin: 0 auto;
+}
+
+.video__text-button {
+  position: absolute;
+  @include center-absolute-element;
+  z-index: 10;
+  @include page-width;
+}
+
+.video__button {
+  @include button;
+  text-align: center;
+  width: 35px;
+  height: 40px;
+  margin: 0 auto;
+  @include center-absolute-element;
+  top: -30px;
+
+  svg {
+    color: $white-color;
+  }
+
+}
+
+.video__text {
+  color: $white-color;
+  font-size: 12px;
+  line-height: 120%;
+  text-align: center;
+  bottom: 20px;
+  position: relative;
+  display: block;
+  position: absolute;
+}

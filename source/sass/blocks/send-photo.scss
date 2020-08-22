@@ -1,0 +1,48 @@
+.send-photo {
+  @include light-pink-section;
+  padding-top: 40px;
+}
+
+.send-photo__wrapper {
+@include page-width;
+}
+
+.send-photo__header {
+  @include light-section-header;
+  margin-bottom: 40px;
+}
+
+.send-photo__button {
+  margin-top: 20px;
+  @include red-button;
+}
+
+
+
+.send-photo__image-wrapper {
+  @include image-wrapper;
+  background-image: url("../img/promo-bg.png");
+  background-repeat: no-repeat;
+  background-position: 65px 100%;
+  background-size: 230px 230px;
+}
+
+.send-photo__image {
+  @include image;
+}
+
+.send-photo__image-text {
+  @include image-text;
+}
+
+.send-photo__image-comment {
+  @include image-comment;
+}
+
+.send-photo__image-author {
+  @include image-author;
+}
+
+.send-photo__image-author-comment {
+  @include image-author-comment;
+}

@@ -1,0 +1,60 @@
+.promo {
+  @include light-pink-section;
+  padding-top: 20px;
+}
+
+.promo__wrapper {
+  @include page-width;
+  background-image: url("../img/promo-bg.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 100% 40%;
+}
+
+.promo__header {
+  font-family: $font-futura;
+  font-size : 21px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 900;
+  color: $black-color;
+  margin-bottom: 15px;
+
+  span {
+    color: $dark-pink-color;
+  }
+}
+
+.promo__text {
+  @include light-section-text;
+}
+
+.promo__button {
+  @include red-button;
+  margin-bottom: 30px;
+}
+
+.promo__image-wrapper {
+  @include image-wrapper;
+}
+
+.promo__image {
+  @include image;
+}
+
+.promo__image-text {
+  @include image-text;
+}
+
+.promo__image-comment {
+  @include image-comment;
+  position: relative;
+}
+
+.promo__image-author {
+  @include image-author;
+}
+
+.promo__image-author-comment {
+  @include image-author-comment;
+}

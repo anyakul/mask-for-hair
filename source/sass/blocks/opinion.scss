@@ -1,0 +1,56 @@
+.opinion {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  @include light-pink-section;
+}
+
+.opinion__wrapper {
+  @include page-width;
+}
+
+.opinion__header {
+  @include light-section-header;
+  margin-bottom: 15px;
+}
+
+.opinion__text {
+  @include light-section-small-text;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.opinion__list {
+  @include cancel-list;
+  margin-bottom: 20px;
+}
+
+.opinion__item {
+  margin: 0 auto;
+  text-align: center;
+  transition: 1s;
+}
+
+.opinion__item-image {
+  margin: 0 auto;
+}
+
+.opinion__button-list {
+  @include cancel-list;
+  @include flex-row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.opinion__button-item {
+  margin-right: 8px;
+  width: 8px;
+  height: 8px;
+  background-color: $light-pink-color;;
+  border-radius: 50%;
+  border: none;
+  transition: background-color 0.3s ease;
+
+  &--current {
+    background-color: $dark-pink-color;
+  }
+}

@@ -1,0 +1,27 @@
+.footer {
+  @include dark-section;
+}
+
+.footer__copyright-list {
+  @include page-width;
+  text-align: center;
+  font-family: $font-futura;
+  padding: 20px 0;
+}
+
+
+.footer__copyright-item {
+  color: $light-pink-background;
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: block;
+  line-height: 100%;
+  text-align: center;
+
+  a {
+    color: $light-pink-background;
+    &:hover {
+      color: $dark-pink-color;
+    }
+  }
+}
